@@ -1,35 +1,205 @@
-Initialize engine version: 5.3.2f1 (e87ab445ead0)
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA NVS 510 (ID=0xffd)
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
     Vendor:   NVIDIA
     VRAM:     1985 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.132 seconds
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Unity\ForgePrototype01\Build\Demo_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\LitJson.dll into Unity Child Domain
+- Completed reload, in  0.121 seconds
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Unity\Projects\ForgePrototype01\Build\Demo_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-desktop: 1680x1050 59Hz; virtual: 4240x1050 at -1280,0
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.852172 ms
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1e24 -> priority: 1 
+UnloadTime: 0.537222 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2444 -> priority: 1 
+  Thread -> id: 2960 -> priority: 1 
 Player with PlayerID 0 connected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 Player with PlayerID 1 connected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 1","ID":1,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 0","ID":0,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 1","ID":1,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 1","ID":1,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 0","ID":0,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 0","ID":0,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Player Constructor JSON String Reecieved : {"name":"Player 0","ID":0,"units":[{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589},{"name":"attackShip","health":120,"experience":1589}]}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unit Constructor JSON String Reecieved : {"name":"attackShip","health":120,"experience":1589}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 

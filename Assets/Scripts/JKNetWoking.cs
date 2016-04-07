@@ -6,24 +6,26 @@ using UnityEngine.UI;
 public class JKNetWoking : SimpleNetworkedMonoBehavior
 {
 	public Text conectionText;
+	public Button HostGameBtn;
+	public Button ConnectBtn;
+	public Button DisconnectBtn;
+	public GameObject playerListItemPrefab;
+	public Transform ListPanelTransform;
 
 	private bool connected;
 
 	public void Awake ()
 	{
 		conectionText.text = "Disconnected!";
+		HostGameBtn.gameObject.SetActive (true);
+		ConnectBtn.gameObject.SetActive (true);
+		DisconnectBtn.gameObject.SetActive (false);
 
 	}
 
 	public void Update ()
 	{
-		if (Networking.IsConnected (15937))
-		{
-			conectionText.text = "Connected!";
-		} else
-		{
-			conectionText.text = "Disconnected!";
-		}
+		CheckConnectionStatus ();
 	}
 
 
@@ -64,6 +66,7 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 	{
 		var PlayerID = Networking.Sockets [15937].Uniqueidentifier;
 		RPC ("RPCDebugLog", NetworkReceivers.AllBuffered, "Player with PlayerID " + PlayerID + " connected");
+
 	}
 
 	void disconnectionCallBack ()
@@ -79,4 +82,42 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 		Debug.Log (message);
 	}
 
+	void CheckConnectionStatus ()
+	{
+		if (Networking.IsConnected (15937))
+		{
+			if (connected)
+				return;
+			
+			conectionText.text = "Connected!";
+			HostGameBtn.gameObject.SetActive (false);
+			ConnectBtn.gameObject.SetActive (false);
+			DisconnectBtn.gameObject.SetActive (true);
+
+
+
+			connected = true;
+		}
+		else
+		{
+			if (!connected)
+				return;
+			
+			conectionText.text = "Disconnected!";
+			HostGameBtn.gameObject.SetActive (true);
+			ConnectBtn.gameObject.SetActive (true);
+			DisconnectBtn.gameObject.SetActive (false);
+		
+			connected = false;
+		}
+	}
+
+	private void PlayerSpawned(SimpleNetworkedMonoBehavior playerObject)
+	{
+		playerObject.transform.SetParent (ListPanelTransform, false);
+		Debug.Log("The player object " + playerObject.name + " has spawned at " + 
+			"X: " + playerObject.transform.position.x +
+			"Y: " + playerObject.transform.position.y +
+			"Z: " + playerObject.transform.position.z);
+	}
 }

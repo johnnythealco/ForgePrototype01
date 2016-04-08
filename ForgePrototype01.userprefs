@@ -1,14 +1,16 @@
 ﻿<Properties RefactoringSettings.EnableRefactorings="True" StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\netGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Bearded Man Studios Inc\Forge Networking\Scripts\QuickStartMenu\StartGame.cs">
     <Files>
-      <File FileName="Assets\Scripts\JKNetWoking.cs" Line="69" Column="90" />
-      <File FileName="Assets\Scripts\netGame.cs" Line="27" Column="30" />
-      <File FileName="Assets\Scripts\TextInputController.cs" Line="17" Column="1" />
+      <File FileName="Assets\Bearded Man Studios Inc\Forge Networking\Scripts\QuickStartMenu\StartGame.cs" Line="227" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Unity\ForgePrototype01\Assets\Scripts\Game.cs" line="101" column="1" />
+      <Breakpoint file="C:\Unity\ForgePrototype01\Assets\Scripts\JKNetWoking.cs" line="72" column="1" />
+      <Breakpoint file="C:\Unity\ForgePrototype01\Assets\Scripts\JKNetWoking.cs" line="76" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

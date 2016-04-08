@@ -39,10 +39,8 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 		//   optional bool <ALLOW_WEBPLAYER_CONNECTION> [default true]
 
 		Networking.Host (15937, Networking.TransportationProtocolType.UDP, 31);
-
 		Networking.Sockets [15937].connected += connectionCallBack;
 		Networking.Sockets [15937].disconnected += disconnectionCallBack;
-
 
 
 	}
@@ -53,7 +51,6 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 
 		Networking.Sockets [15937].connected += connectionCallBack;
 		Networking.Sockets [15937].disconnected += disconnectionCallBack;
-
 	
 	}
 
@@ -64,8 +61,19 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 
 	void connectionCallBack ()
 	{
+		
+		NetworkingManager.Instance.Players.Add (Networking.Sockets [15937].Me);
+		var n = NetworkingManager.Instance;
+		var m = Networking.Sockets [15937].Me;
+
+		n.Players.Add (m);
+
 		var PlayerID = Networking.Sockets [15937].Uniqueidentifier;
 		RPC ("RPCDebugLog", NetworkReceivers.AllBuffered, "Player with PlayerID " + PlayerID + " connected");
+
+
+
+		Networking.Instantiate ("NetPlayer", NetworkReceivers.AllBuffered, PlayerSpawned);
 
 	}
 
@@ -97,8 +105,7 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 
 
 			connected = true;
-		}
-		else
+		} else
 		{
 			if (!connected)
 				return;
@@ -112,12 +119,12 @@ public class JKNetWoking : SimpleNetworkedMonoBehavior
 		}
 	}
 
-	private void PlayerSpawned(SimpleNetworkedMonoBehavior playerObject)
+	private void PlayerSpawned (SimpleNetworkedMonoBehavior playerObject)
 	{
-		playerObject.transform.SetParent (ListPanelTransform, false);
-		Debug.Log("The player object " + playerObject.name + " has spawned at " + 
-			"X: " + playerObject.transform.position.x +
-			"Y: " + playerObject.transform.position.y +
-			"Z: " + playerObject.transform.position.z);
+//		playerObject.gameObject.name = "Player " + playerObject.OwningNetWorker.Uniqueidentifier.ToString ();
+		Debug.Log ("The player object " + playerObject.name + " has spawned at " +
+		"X: " + playerObject.transform.position.x +
+		"Y: " + playerObject.transform.position.y +
+		"Z: " + playerObject.transform.position.z);
 	}
 }

@@ -125,6 +125,7 @@
      <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\JKNetWoking.cs" />
+     <Compile Include="Assets\Scripts\NetPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayerListItem.cs" />
      <Compile Include="Assets\Scripts\TextInputController.cs" />
      <Compile Include="Assets\Scripts\netGame.cs" />
@@ -138,7 +139,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Unity/Projects/ForgePrototype01/Assets/Libraries/LitJson.dll</HintPath>
+ <HintPath>C:/Unity/ForgePrototype01/Assets/Libraries/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
